@@ -1,0 +1,122 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Impacts</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #eaf6fa
+        }
+        .contact-form{
+            background: #fff;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form h2{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-control{
+            margin-bottom: 15px;
+        }
+        .form-control label{
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-control input, .form-control textarea{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-control textarea{
+            resize:vertical;
+        }
+        .form-control button{
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .form-control button:hover{
+            background-color: #218838;
+        }
+        .clear-button{
+            background-color: #dc3545 !important;
+        }
+        .clear-button:hover{
+            background-color: #c82333 !important;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="index.html" class="logo">
+                    <img src="Pollution.png" alt="Ocean Pollution">
+                </a>
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Ocean.html">Ocean Impacts</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+        <main>
+            <h3>This is the contacts page</h3>
+            <p>Here, you can type a response or any feedback, or just a message.</p>
+        </main>
+
+        <div class="contact-form">
+            <h2>Contact us</h2>
+            <form action="https://formspree.io/f/xeaqjapg" method="post">
+                <div class="form-control">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" first-name="first-name" placeholder="Your first name" required>
+                </div>
+                <div class="form-control">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" last-name="last-name" placeholder="Your name" required>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" email="email" placeholder="Your email" required>
+                </div>
+                <div class="form-control">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5"
+                    placeholder="your message"></textarea>
+                </div>
+                <div class="form-control">
+                    <button type="submit">Send message</button>
+                </div>
+                <div class="form-control">
+                    <button type="reset" class="clear-button">Clear</button>
+                </div>
+            </form>
+        </div>
+
+<footer>
+    <p>© 2026 Ocean pollution</p>
+    <a href="index.html">Home</a>
+    <a href="Ocean.html">Ocean Impacts</a>
+    <a href="about.html">About</a>
+</footer>
+
+</body>
+</html>
